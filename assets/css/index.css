@@ -2,10 +2,11 @@
 
 
 :root {
-    --orange: --#e84610;
+    --orange: #e84610;
     --light-orange: #e67e22;
     --dark-grey: #525252;
     --light-grey: #676767;
+    --lightest-grey: #f4f4f4;
     --purple: #9b59b6;
     --light-blue:#3498db;
     --off-white: #fafafa;
@@ -39,6 +40,14 @@
     background-color: var(--white);
 }
 
+.bg-color-personal-info {
+    background-color: var(--lightest-grey);
+}
+
+.bg-color-work-history {
+    background-color: var(--purple);
+}
+
 /*-----------------Special paddings/margins/text */
 h1, h2, h3, h4 {
     margin:0;
@@ -68,6 +77,7 @@ h1, h2, h3, h4 {
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-family: var(--default-font);
     font-weight: 399;
@@ -186,7 +196,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: -var(--orange);
+    color: var(--orange);
 }
 
 .social-links li a i {
@@ -223,4 +233,105 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/*-----------------Personal Info */
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 12px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/*-----------------Skills */
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: var(--off-white);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/*-----------------Work History */
+.history-heading {
+    color: var(--off-white);
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: var(--off-white);
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: var(--off-white);
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
