@@ -10,7 +10,7 @@ class MyHeader extends HTMLElement {
                     <div class="row no-gutters bg-color-name-title">
                         <div class="col heading">
                             <h1 class="name">Gaurav Jagpal</h1>
-                            <h2 class="title">Student Full Stack Developer</h2>
+                            <h2 class="title">Full Stack Developer</h2>
                         </div>
                     </div>
                     <div class="row no-gutters">
