@@ -11,7 +11,7 @@ class MyFooter extends HTMLElement {
                 <div class="col-sm-4">
                     <h5 class="uppercase general-sub">Download</h5>
                     <p class="inline-block">Downlaod a printable version of my CV here.
-                        <a href="#" target="_blank" class="cv-pdf">
+                        <a href="assets/cv/gaurav-jagpal-cv.pdf" target="_blank" class="cv-pdf">
                             <i class="fa fa-download" aria-hidden="true"></i>
                             <span class="sr-only">Download link.</span>
                         </a>
