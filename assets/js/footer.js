@@ -5,7 +5,7 @@ class MyFooter extends HTMLElement {
             <div id="footer-details" class ="row">
                 <div class="col-sm-4">
                     <h5 class="uppercase general-sub">About</h5>
-                    <p class="inline-block">Full Stack Web Developer. Skills include HTML, CSS, JavaScript and Python.
+                    <p class="inline-block">Full Stack Web Developer. Skills include HTML, CSS, JavaScript (including JQuery) and Python.
                         Along with using toolkits such as Bootstrap and React.</p>
                 </div>
                 <div class="col-sm-4">

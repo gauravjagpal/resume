@@ -9,6 +9,7 @@
     --lightest-grey: #f4f4f4;
     --purple: #9b59b6;
     --light-blue:#3498db;
+    --dark-blue: #1c4a6c;
     --off-white: #fafafa;
     --white: #fff;
     --background: #8f8f8f;
@@ -34,6 +35,14 @@
 
 .ui-menu-color-download {
     background-color: var(--dark-grey);
+}
+
+.ui-menu-color-github {
+    background-color: var(--dark-blue);
+}
+
+.ui-menu-color-interests {
+    background-color: var(--orange);
 }
 
 .bg-color-three-reasons {
@@ -361,6 +370,8 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+/*-----------------Map */
+div#map {min-height: 360px;}
 
 /*-----------------Media Query */
 
