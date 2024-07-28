@@ -16,6 +16,7 @@
     --default-font: "Exo", sans-serif;
 }
 
+
 /*-----------------Colours */
 .bg-color-name-title {
     background-color: var(--light-grey);
@@ -195,6 +196,7 @@ footer {
     color: var(--off-white);
     min-height: 120px;
     margin: 0;
+    bottom: 0;
 }
 
 .cv-pdf i {
