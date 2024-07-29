@@ -32,7 +32,7 @@ class MyHeader extends HTMLElement {
                                     <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
                                 </li>
                                 <li class="col-6 col-sm-2 list-inline-item ui-menu-color-download menuitem">    
-                                    <a href="assets/cv/gaurav-jagpal-cv.pdf" class="hvr-sweep-to-bottom" target="_blank"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+                                    <a href="assets/cv/gaurav-jagpal-cv.pdf" class="hvr-sweep-to-bottom" target="_blank"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                                 </li>
                             </ul>
                         </div>
